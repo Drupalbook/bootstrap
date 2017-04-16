@@ -12,7 +12,7 @@
  
  [9.3. Отключаем кеш в Drupal 8. Вывод debug информации в шаблоне.](http://drupalbook.ru/drupal/93-otklyuchaem-kesh-v-drupal-8-vyvod-debug-informacii-v-shablone)
  
- [9.4. Подготавливаем мобильную версию сайта на теме Boostrap на Drupal 8.](http://drupalbook.ru/drupal/94-podgotavlivaem-mobilnuyu-versiyu-sayta-na-teme-boostrap-na-drupal-8)
+ [9.4. Подготавливаем мобильную версию сайта на теме Bootstrap на Drupal 8.](http://drupalbook.ru/drupal/94-podgotavlivaem-mobilnuyu-versiyu-sayta-na-teme-bootstrap-na-drupal-8)
  
  9.5. Верстаем главную страницу темы на Drupal 8.
  
