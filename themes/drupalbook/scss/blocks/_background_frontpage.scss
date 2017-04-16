@@ -1,0 +1,22 @@
+#block-fonnaglavnuu {
+  min-height: 700px;
+  background-size: cover !important;
+
+  .field--name-body {
+    margin-top: 300px;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-align: center;
+
+    p {
+      background-color: rgba(0, 0, 0, 0.5);
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px;
+      line-height: 170%;
+    }
+  }
+}

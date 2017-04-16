@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+function drupalbook_preprocess_block(&$variables) {
+  if ($variables['elements']['#id'] == 'fonnaglavnuu') {
+    $url = file_create_url($variables['content']['#block_content']->field_background_image->entity->getFileUri());
+    $variables['background_image_url'] = $url;
+  }
+}

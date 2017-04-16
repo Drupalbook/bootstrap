@@ -1,0 +1,76 @@
+header.navbar {
+  height: 150px;
+  background: rgba(0, 0, 0, 0.50);
+  border: 0;
+
+  .navbar-toggle {
+    margin-top: 56px;
+  }
+}
+
+#block-logotip {
+  line-height: 150px;
+}
+
+#block-drupalbook-main-menu {
+  line-height: 150px;
+
+  ul {
+    @media #{$tablet} {
+      height: 150px;
+      line-height: 150px;
+      text-align: right;
+      float: right;
+    }
+
+    li {
+      @media #{$tablet} {
+        line-height: 150px;
+        float: none;
+        display: inline-block;
+      }
+
+      a {
+        color: #fff;
+        font-size: 14px;
+        font-family: 'Open Sans', Arial, sans-serif;
+        text-transform: uppercase;
+        padding: 15px;
+
+        &:hover {
+          color: #4bcaff;
+          border: 2px solid #4bcaff;
+          padding: 13px;
+          text-decoration: none;
+        }
+      }
+
+      a.is-active {
+        background: none;
+        color: #4bcaff;
+        border: 2px solid #4bcaff;
+        padding: 13px;
+      }
+    }
+  }
+}
+
+.region-navigation {
+  float: left;
+}
+
+#navbar-collapse {
+  @media #{$mobile} {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  #block-drupalbook-main-menu ul {
+    @media #{$mobile} {
+      float: none;
+    }
+  }
+}
+
+body.navbar-is-fixed-top {
+  margin: 0;
+}
