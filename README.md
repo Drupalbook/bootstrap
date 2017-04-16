@@ -7,6 +7,8 @@
  [9.1. Темы конструкторы Drupal 8](http://drupalbook.ru/drupal/91-temy-konstruktory-drupal-8-sozdanie-temy-na-osnove-bootstrap)
  
  [9.2. Создание темы на основе Bootstrap. Настраиваем PhpStorm, LESS Compiler для работы с нашей темой.](http://drupalbook.ru/drupal/92-sozdanie-temy-na-osnove-bootstrap-nastraivaem-phpstorm-less-compiler-dlya-raboty-s-nashey)
+
+ [9.2.1. Создание темы на основе Bootstrap. Компиляция SASS через Gulp.](http://drupalbook.ru/drupal/921-sozdanie-temy-na-osnove-bootstrap-kompilyaciya-sass-cherez-gulp)
  
  [9.3. Отключаем кеш в Drupal 8. Вывод debug информации в шаблоне.](http://drupalbook.ru/drupal/93-otklyuchaem-kesh-v-drupal-8-vyvod-debug-informacii-v-shablone)
  
