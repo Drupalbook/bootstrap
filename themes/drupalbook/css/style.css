@@ -6424,6 +6424,9 @@ header.navbar {
 body.navbar-is-fixed-top {
   margin: 0; }
 
+body {
+  font-family: 'Open Sans', Arial, sans-serif; }
+
 #block-fonnaglavnuu {
   min-height: 700px;
   background-size: cover !important; }
@@ -6445,3 +6448,33 @@ body.navbar-is-fixed-top {
 @media screen and (min-width: 768px) {
   #block-drupalbook-search {
     display: none; } }
+
+#block-services {
+  background: #4bcaff;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  #block-services h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: uppercase; }
+    #block-services h2:after {
+      width: 45px;
+      height: 2px;
+      background: #fff;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      content: ' '; }
+  #block-services .field--name-field-paragraph-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px; }
+  #block-services .field--name-field-paragraph-description {
+    font-size: 12px; }
+  #block-services .paragraph {
+    margin-bottom: 20px; }

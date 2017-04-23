@@ -17,10 +17,12 @@ $wide:    "screen and (min-width: #{$screen-lg-min})";
 
 // Components
 @import 'component/header';
+@import 'component/main_styles';
 
 // Blocks
 @import 'blocks/background_frontpage';
 @import 'blocks/search';
+@import 'blocks/services';
 
 // Pages
 @import 'pages/frontpage';
