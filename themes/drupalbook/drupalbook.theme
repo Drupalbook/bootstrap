@@ -12,3 +12,22 @@ function drupalbook_preprocess_block(&$variables) {
     $variables['background_image_url'] = $url;
   }
 }
+
+function drupalbook_preprocess_views_view_unformatted(&$variables) {
+  if (!empty($variables['rows'][0]['content']['#row'])) {
+    foreach ($variables['rows'] as $key => $row) {
+      $variables['rows'][$key]['category_id'] = 'category-' . $row['content']['#row']->{'_entity'}->field_category_gallery->target_id;
+    }
+  }
+}
+
+function drupalbook_preprocess_views_view_field(&$variables) {
+  $test = 'asf';
+  $view = $variables['view'];
+  if ($view->id() == 'portfolio_filters') {
+    $term = $variables['row']->{'_entity'};
+    $tid = $term->id();
+    $name = $variables['row']->{'_entity'}->getName();
+    $variables['category'] = '<button class="button" data-filter=".category-' . $tid . '">' . $name . '</button>';
+  }
+}
