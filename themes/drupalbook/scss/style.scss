@@ -21,6 +21,7 @@ $wide:    "screen and (min-width: #{$screen-lg-min})";
 
 // Blocks
 @import 'blocks/background_frontpage';
+@import 'blocks/portfolio';
 @import 'blocks/search';
 @import 'blocks/services';
 
