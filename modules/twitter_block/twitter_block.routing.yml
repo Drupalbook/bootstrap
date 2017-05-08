@@ -1,0 +1,7 @@
+twitter_block.settings:
+  path: '/admin/structure/twitter-block/settings'
+  defaults:
+    _form: '\Drupal\twitter_block\Form\TwitterBlockSettingsForm'
+    _title: 'Twitter API Settings'
+  requirements:
+    _permission: 'administer site configuration'
