@@ -30,7 +30,7 @@ class TwitterBlock extends BlockBase {
     // Set here the Twitter account from where getting latest tweets
     $screen_name = 'netglooweb';
 
-// Get timeline using TwitterAPIExchange
+    // Get timeline using TwitterAPIExchange
     $url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
     $getfield = "?count=1";
     $requestMethod = 'GET';
