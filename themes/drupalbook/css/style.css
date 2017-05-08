@@ -6510,7 +6510,8 @@ body {
   margin-top: 80px;
   margin-bottom: 80px; }
   #block-views-block-gallery-front-block-1 .view-gallery-front {
-    margin-top: 80px; }
+    margin-top: 80px;
+    position: relative; }
   @media screen and (min-width: 992px) {
     #block-views-block-gallery-front-block-1 .view-portfolio-filters {
       position: absolute;
