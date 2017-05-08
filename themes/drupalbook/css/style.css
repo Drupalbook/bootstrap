@@ -17,6 +17,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=cyrillic");
+@import url(../fonts/font-awesome/css/font-awesome.min.css);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6436,6 +6437,7 @@ body {
     margin-top: 0;
     margin-bottom: 30px;
     text-transform: uppercase;
+    font-weight: 300;
     position: relative; }
     #block-aboutus h2:after {
       width: 45px;
@@ -6574,3 +6576,33 @@ body {
     font-size: 12px; }
   #block-services .paragraph {
     margin-bottom: 20px; }
+
+#block-twitterblock {
+  background: #4bcaff;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  #block-twitterblock .container {
+    position: relative; }
+  #block-twitterblock h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative; }
+    #block-twitterblock h2:after {
+      width: 45px;
+      height: 2px;
+      background: #fff;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      content: ' '; }
+  #block-twitterblock .twitter-message {
+    font-size: 28px;
+    font-weight: 300; }
+  #block-twitterblock .fa-twitter {
+    font-size: 28px;
+    position: absolute;
+    right: 0;
+    top: 0; }

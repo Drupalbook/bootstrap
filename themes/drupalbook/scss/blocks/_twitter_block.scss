@@ -1,0 +1,40 @@
+#block-twitterblock {
+  background: $blue;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  .container {
+    position: relative;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+
+    &:after {
+      width: 45px;
+      height: 2px;
+      background: #fff;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      content: ' ';
+    }
+  }
+
+  .twitter-message {
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  .fa-twitter {
+    font-size: 28px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
