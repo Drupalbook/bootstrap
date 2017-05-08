@@ -6427,6 +6427,38 @@ body.navbar-is-fixed-top {
 body {
   font-family: 'Open Sans', Arial, sans-serif; }
 
+#block-aboutus {
+  background: #515f67;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #fff; }
+  #block-aboutus h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative; }
+    #block-aboutus h2:after {
+      width: 45px;
+      height: 2px;
+      background: #fff;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      content: ' '; }
+  #block-aboutus a {
+    color: #fff; }
+  #block-aboutus .field--name-field-block-link a {
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    display: inline-block;
+    text-transform: uppercase; }
+    #block-aboutus .field--name-field-block-link a:hover {
+      color: #4bcaff;
+      border: 2px solid #4bcaff;
+      text-decoration: none; }
+  #block-aboutus p {
+    margin-bottom: 30px; }
+
 #block-fonnaglavnuu {
   min-height: 700px;
   background-size: cover !important; }

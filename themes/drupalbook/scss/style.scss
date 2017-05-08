@@ -20,6 +20,7 @@ $wide:    "screen and (min-width: #{$screen-lg-min})";
 @import 'component/main_styles';
 
 // Blocks
+@import 'blocks/about_us';
 @import 'blocks/background_frontpage';
 @import 'blocks/portfolio';
 @import 'blocks/search';
