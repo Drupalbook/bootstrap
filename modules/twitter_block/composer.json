@@ -1,0 +1,11 @@
+{
+  "name": "drupal/twitter_block",
+  "type": "drupal-module",
+  "description": "Display Last tweets.",
+  "homepage": "http://drupalbook.ru/drupal/composer-v-drupal-8-vyvod-poslednih-tvitov-iz-twitter",
+  "license": "GPL-2.0+",
+  "require": {
+    "j7mbo/twitter-api-php": "dev-master"
+  },
+  "minimum-stability": "dev"
+}
