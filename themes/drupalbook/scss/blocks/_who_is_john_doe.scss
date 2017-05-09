@@ -1,0 +1,63 @@
+#block-who-is-john-doe {
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-size: cover !important;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+
+    &:after {
+      width: 45px;
+      height: 2px;
+      background: #fff;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      content: ' ';
+    }
+  }
+
+  .field--name-field-social-icons {
+    margin-top: 20px;
+
+    .field--item {
+      display: inline-block;
+
+      a {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 24px;
+        display: inline-block;
+        padding: 3px 6px;
+        margin-right: 10px;
+
+        &:hover {
+          border: 2px solid $blue;
+          color: $blue;
+        }
+
+        i {
+          padding-top: 10px;
+        }
+      }
+
+      .fa-mailru {
+        background: url(../images/mailru.png) center center no-repeat;
+        width: 22px;
+        height: 22px;
+        background-size: 22px 22px;
+        padding-top: 3px;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+

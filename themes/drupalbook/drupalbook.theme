@@ -7,7 +7,8 @@
  */
 
 function drupalbook_preprocess_block(&$variables) {
-  if ($variables['elements']['#id'] == 'fonnaglavnuu') {
+  if ($variables['elements']['#id'] == 'fonnaglavnuu' ||
+    $variables['elements']['#id'] == 'who_is_john_doe') {
     $url = file_create_url($variables['content']['#block_content']->field_background_image->entity->getFileUri());
     $variables['background_image_url'] = $url;
   }
@@ -22,12 +23,19 @@ function drupalbook_preprocess_views_view_unformatted(&$variables) {
 }
 
 function drupalbook_preprocess_views_view_field(&$variables) {
-  $test = 'asf';
   $view = $variables['view'];
   if ($view->id() == 'portfolio_filters') {
     $term = $variables['row']->{'_entity'};
     $tid = $term->id();
     $name = $variables['row']->{'_entity'}->getName();
     $variables['category'] = '<button class="button" data-filter=".category-' . $tid . '">' . $name . '</button>';
+  }
+}
+
+function drupalbook_preprocess_paragraph(&$variables) {
+  $paragraph = $variables['paragraph'];
+  if ($paragraph->bundle() == 'social_icon') {
+    $variables['link'] = $paragraph->field_page_link->uri;
+    $variables['social_icon'] = $paragraph->field_social_network->value;
   }
 }
