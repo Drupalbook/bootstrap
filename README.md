@@ -14,9 +14,17 @@
  
  [9.4. Подготавливаем мобильную версию сайта на теме Bootstrap на Drupal 8.](http://drupalbook.ru/drupal/94-podgotavlivaem-mobilnuyu-versiyu-sayta-na-teme-bootstrap-na-drupal-8)
  
- 9.5. Верстаем главную страницу темы на Drupal 8.
+ [9.5. Верстаем блок services с колонками bootstrap.] http://drupalbook.ru/drupal/95-verstaem-blok-services-s-kolonkami-bootstrap
  
- 9.6. Проверяем, тестируем, дорабатываем тему для Drupal 8.
+ [9.6. Галерея Isotope для Drupal 8] http://drupalbook.ru/drupal/96-galereya-isotope-dlya-drupal-8
+ 
+ [9.7. Блок с youtube видео Drupal 8] http://drupalbook.ru/drupal/97-blok-s-youtube-video-drupal-8
+ 
+ [9.8. Блок с twitter в Drupal 8] http://drupalbook.ru/drupal/98-blok-s-twitter-v-drupal-8
+ 
+ [9.9. Блок с социальными иконками Drupal 8] http://drupalbook.ru/drupal/99-blok-s-socialnymi-ikonkami-drupal-8
+ 
+ 9.10. Проверяем, тестируем, дорабатываем тему для Drupal 8.
 
 Материалы используемые для курса
 ------------
