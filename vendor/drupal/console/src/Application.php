@@ -25,11 +25,35 @@ class Application extends BaseApplication
     /**
      * @var string
      */
-    const VERSION = '1.0.0-rc18';
+    const VERSION = '1.0.0-rc19';
 
     public function __construct(ContainerInterface $container)
     {
         parent::__construct($container, $this::NAME, $this::VERSION);
+    }
+
+    /**
+     * Returns the long version of the application.
+     *
+     * @return string The long application version
+     */
+    public function getLongVersion()
+    {
+        $output = '';
+
+        if ('UNKNOWN' !== $this->getName()) {
+            if ('UNKNOWN' !== $this->getVersion()) {
+                $output .= sprintf('<info>%s</info> version <comment>%s</comment>', $this->getName(), $this->getVersion());
+            }
+            else {
+              $output .= sprintf('<info>%s</info>', $this->getName());
+            }
+        }
+        else {
+          $output .= '<info>Console Tool</info>';
+        }
+
+        return $output;
     }
 
     /**

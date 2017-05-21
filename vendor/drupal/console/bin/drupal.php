@@ -1,6 +1,6 @@
 <?php
 
-use DrupalFinder\DrupalFinder;
+use Drupal\Console\Core\Utils\DrupalFinder;
 use Drupal\Console\Core\Utils\ArgvInputReader;
 use Drupal\Console\Bootstrap\Drupal;
 use Drupal\Console\Application;
@@ -63,6 +63,9 @@ if (!$container) {
     exit(1);
 }
 
-$application = new Application($container);
+if (!isset($launcherVersion))
+  $launcherVersion = FALSE;
+
+$application = new Application($container, $launcherVersion);
 $application->setDefaultCommand('about');
 $application->run();
