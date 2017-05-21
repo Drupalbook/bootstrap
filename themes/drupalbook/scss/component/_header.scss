@@ -24,6 +24,8 @@ header.navbar {
     }
 
     li {
+      margin-left: 7px;
+
       @media #{$tablet} {
         line-height: 150px;
         float: none;
@@ -35,12 +37,13 @@ header.navbar {
         font-size: 14px;
         font-family: 'Open Sans', Arial, sans-serif;
         text-transform: uppercase;
-        padding: 15px;
+        padding: 5px 20px;
+        font-weight: 600;
 
         &:hover {
           color: #4bcaff;
           border: 2px solid #4bcaff;
-          padding: 13px;
+          padding: 5px 18px;
           text-decoration: none;
         }
       }
@@ -49,7 +52,7 @@ header.navbar {
         background: none;
         color: #4bcaff;
         border: 2px solid #4bcaff;
-        padding: 13px;
+        padding: 6px 18px;
       }
     }
   }

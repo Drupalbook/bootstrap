@@ -1,0 +1,55 @@
+#block-webform {
+  background: url(../images/contact-us-background.png) center center no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+
+    &:after {
+      width: 45px;
+      height: 2px;
+      background: #fff;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      content: ' ';
+    }
+  }
+
+  label {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .webform-button--submit {
+    background: $blue;
+    border-radius: 0;
+    max-width: 100%;
+    width: 300px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    box-shadow: none;
+    border: none;
+  }
+
+  .form-text,
+  .form-email,
+  .form-textarea {
+    background: none;
+    border-radius: 0;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+}

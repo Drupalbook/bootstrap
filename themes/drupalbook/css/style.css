@@ -16,7 +16,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&subset=cyrillic");
 @import url(../fonts/font-awesome/css/font-awesome.min.css);
 html {
   font-family: sans-serif;
@@ -6371,6 +6371,13 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+footer.footer {
+  background: #353f47;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 0; }
+
 header.navbar {
   height: 150px;
   background: rgba(0, 0, 0, 0.5);
@@ -6389,27 +6396,30 @@ header.navbar {
       line-height: 150px;
       text-align: right;
       float: right; } }
-  @media screen and (min-width: 768px) {
-    #block-drupalbook-main-menu ul li {
-      line-height: 150px;
-      float: none;
-      display: inline-block; } }
-  #block-drupalbook-main-menu ul li a {
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Open Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    padding: 15px; }
-    #block-drupalbook-main-menu ul li a:hover {
+  #block-drupalbook-main-menu ul li {
+    margin-left: 7px; }
+    @media screen and (min-width: 768px) {
+      #block-drupalbook-main-menu ul li {
+        line-height: 150px;
+        float: none;
+        display: inline-block; } }
+    #block-drupalbook-main-menu ul li a {
+      color: #fff;
+      font-size: 14px;
+      font-family: 'Open Sans', Arial, sans-serif;
+      text-transform: uppercase;
+      padding: 5px 20px;
+      font-weight: 600; }
+      #block-drupalbook-main-menu ul li a:hover {
+        color: #4bcaff;
+        border: 2px solid #4bcaff;
+        padding: 5px 18px;
+        text-decoration: none; }
+    #block-drupalbook-main-menu ul li a.is-active {
+      background: none;
       color: #4bcaff;
       border: 2px solid #4bcaff;
-      padding: 13px;
-      text-decoration: none; }
-  #block-drupalbook-main-menu ul li a.is-active {
-    background: none;
-    color: #4bcaff;
-    border: 2px solid #4bcaff;
-    padding: 13px; }
+      padding: 6px 18px; }
 
 .region-navigation {
   float: left; }
@@ -6427,6 +6437,11 @@ body.navbar-is-fixed-top {
 
 body {
   font-family: 'Open Sans', Arial, sans-serif; }
+  body .main-container {
+    margin-top: 150px; }
+
+body.path-frontpage .main-container {
+  margin-top: 0; }
 
 #block-aboutus {
   background: #515f67;
@@ -6478,6 +6493,73 @@ body {
       padding-left: 10px;
       padding-right: 10px;
       line-height: 170%; }
+
+#block-webform {
+  background: url(../images/contact-us-background.png) center center no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%; }
+  #block-webform h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative; }
+    #block-webform h2:after {
+      width: 45px;
+      height: 2px;
+      background: #fff;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      content: ' '; }
+  #block-webform label {
+    font-size: 14px;
+    text-transform: uppercase; }
+  #block-webform .webform-button--submit {
+    background: #4bcaff;
+    border-radius: 0;
+    max-width: 100%;
+    width: 300px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    box-shadow: none;
+    border: none; }
+  #block-webform .form-text,
+  #block-webform .form-email,
+  #block-webform .form-textarea {
+    background: none;
+    border-radius: 0;
+    border: 2px solid #fff;
+    color: #fff; }
+
+#block-copyright .field--name-body {
+  text-align: right;
+  color: #515f67; }
+
+#block-footermenu .menu.nav li {
+  display: inline-block;
+  border-right: 1px solid #515f67; }
+  #block-footermenu .menu.nav li a {
+    color: #515f67;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-transform: uppercase; }
+    #block-footermenu .menu.nav li a:hover {
+      color: #fff;
+      background: none; }
+  #block-footermenu .menu.nav li:first-child {
+    padding-left: 0; }
+    #block-footermenu .menu.nav li:first-child a {
+      padding-left: 0; }
+  #block-footermenu .menu.nav li:last-child {
+    border-right: 0; }
 
 .view-id-gallery_front .views-row {
   margin-bottom: 30px; }
@@ -6577,6 +6659,40 @@ body {
     font-size: 12px; }
   #block-services .paragraph {
     margin-bottom: 20px; }
+
+.block-views-blocktestimponials-block-1 {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  .block-views-blocktestimponials-block-1 h2 {
+    color: #515f67;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: 0; }
+    .block-views-blocktestimponials-block-1 h2:after {
+      width: 45px;
+      height: 2px;
+      background: #515f67;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      content: ' '; }
+  .block-views-blocktestimponials-block-1 .views_slideshow_slide {
+    background: none; }
+    .block-views-blocktestimponials-block-1 .views_slideshow_slide .views-field-body {
+      font-size: 28px;
+      color: #515f67;
+      margin-bottom: 40px;
+      font-weight: 300; }
+    .block-views-blocktestimponials-block-1 .views_slideshow_slide .views-field-field-author {
+      font-size: 14px;
+      color: #4bcaff; }
+  .block-views-blocktestimponials-block-1 .fa-quote-right {
+    float: right;
+    font-size: 28px;
+    color: #515f67; }
 
 #block-twitterblock {
   background: #4bcaff;

@@ -13,19 +13,24 @@ $normal:  "screen and (min-width: #{$screen-md-min})";
 $wide:    "screen and (min-width: #{$screen-lg-min})";
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&subset=cyrillic');
 @import '../fonts/font-awesome/css/font-awesome.min.css';
 
 // Components
+@import 'component/footer';
 @import 'component/header';
 @import 'component/main_styles';
 
 // Blocks
 @import 'blocks/about_us';
 @import 'blocks/background_frontpage';
+@import 'blocks/contact_us';
+@import 'blocks/footer_copyright';
+@import 'blocks/footer_menu';
 @import 'blocks/portfolio';
 @import 'blocks/search';
 @import 'blocks/services';
+@import 'blocks/testimonials';
 @import 'blocks/twitter_block';
 @import 'blocks/who_is_john_doe';
 

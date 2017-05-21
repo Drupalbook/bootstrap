@@ -182,7 +182,11 @@
 {% if page.footer %}
   {% block footer %}
     <footer class="footer {{ container }}" role="contentinfo">
-      {{ page.footer }}
+      <div class="container">
+        <div class="row">
+          {{ page.footer }}
+        </div>
+      </div>
     </footer>
   {% endblock %}
 {% endif %}
