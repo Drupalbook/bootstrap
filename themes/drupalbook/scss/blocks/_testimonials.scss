@@ -1,0 +1,46 @@
+.block-views-blocktestimponials-block-1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  h2 {
+    color: #515f67;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: 0;
+
+    &:after {
+      width: 45px;
+      height: 2px;
+      background: #515f67;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      content: ' ';
+    }
+  }
+
+  .views_slideshow_slide {
+    background: none;
+
+    .views-field-body {
+      font-size: 28px;
+      color: #515f67;
+      margin-bottom: 40px;
+      font-weight: 300;
+    }
+
+    .views-field-field-author {
+      font-size: 14px;
+      color: $blue;
+    }
+  }
+
+  .fa-quote-right {
+    float: right;
+    font-size: 28px;
+    color: #515f67;
+  }
+}
